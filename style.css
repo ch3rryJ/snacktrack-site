@@ -7,16 +7,28 @@ body {
 
 /* ===================== INÍCIO ===================== */
 .inicio {
+    justify-content: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 60px 80px;
-    background: #FFEFE4;
-    flex-wrap: wrap;
+    background-image: url('img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
 }
-
-.inicio-conteudo {
+.sla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     max-width: 500px;
+    padding-right: 750px;
+    padding-top: 300px;
+}
+.inicio-conteudo {
+    height: 100%;
+    max-width: 500px;
+    padding-left: 150px;
 }
 
 #logo {
@@ -38,65 +50,71 @@ body {
 }
 
 .sub-texto {
-    font-size: 20px;
+    font-size: 21px;
     margin-top: 10px;
     font-weight: 600;
     color: #b3261e;
 }
 
-#botao {
+.botao {
     margin-top: 20px;
     background: #b3261e;
     color: #fff;
-    padding: 20px 60px;
-    font-size: 18px;
+    padding: 30px 80px;
+    font-size: 30px;
     font-weight: 700;
-    border-radius: 30px;
+    border-radius: 45px;
     border: none;
     cursor: pointer;
 }
 
 .inicio-imagem img {
-    max-width: 4000px;
+    height: 100px;
+    max-width: 100%;
     height: auto;
     display: block;
+    padding-right: 365px;
+    margin-bottom: -100px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+
 }
 
 /* ===================== OBJETIVO ===================== */
 .objetivo {
-    background: #b3261e;
+    background-image: url('img/fundo2.png');
+    background-size: cover;
+    background-position: left;
     color: #fff;
+    height: 800px;
+}
+
+
+.paragrafo {
+    font-size: 18px;
+    width: 5000px;
+    line-height: 1.6;
+    padding-top: 150px;
+    padding-right: 150px;
+    text-align: right;
+}
+.imagemObj {
+    width: 700px;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
+    padding-right: 80px;
+}
+.conteudoObj{
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 60px 80px;
-    text-align: left;
-}
-
-.objetivo img {
-    max-width: 350px;
-    height: auto;
-    display: block;
-}
-
-.objetivo-texto {
-    max-width: 600px;
-}
-
-.objetivo-texto h2 {
-    font-size: 50px;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.objetivo-texto p {
-    text-align: right;
-    font-size: 18px;
-    max-width: 900px;
-    margin: 0 auto 40px;
-    line-height: 1.6;
+    height: 100%;
+    max-width: 1100px;
+    padding-left: 500px;
+    gap: 120px;
 }
 
 /* ===================== SOBRE NÓS ===================== */
