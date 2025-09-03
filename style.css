@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFEFE4;
+    color: #5a2a2a;
+}
+
+/* ===================== INÍCIO ===================== */
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #FFEFE4;
+    flex-wrap: wrap;
+}
+
+.inicio-conteudo {
+    max-width: 500px;
+}
+
+#logo {
+    max-width: 1000px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.inicio h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #b3261e;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.inicio h1 span {
+    color: #f28c28;
+}
+
+.sub-texto {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #b3261e;
+}
+
+#botao {
+    margin-top: 20px;
+    background: #b3261e;
+    color: #fff;
+    padding: 20px 60px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.inicio-imagem img {
+    max-width: 4000px;
+    height: auto;
+    display: block;
+}
+
+/* ===================== OBJETIVO ===================== */
+.objetivo {
+    background: #b3261e;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 80px;
+    text-align: left;
+}
+
+.objetivo img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+}
+
+.objetivo-texto {
+    max-width: 600px;
+}
+
+.objetivo-texto h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.objetivo-texto p {
+    text-align: right;
+    font-size: 18px;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* ===================== SOBRE NÓS ===================== */
+.sobre {
+    background: #FFEFE4;
+    text-align: center;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.sobre h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #f28c28;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    color: #5a2a2a; 
+}
+
+/* imagens laterais */
+.sobre img.lateral {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sobre img.lateral.esquerda {
+    left: 40px;
+}
+
+.sobre img.lateral.direita {
+    right: 40px;
+}
+
+/* Redes sociais */
+.redes {
+    margin-top: 30px;
+}
+
+.redes img {
+    width: 35px;
+    margin: 0 12px;
+    transition: transform 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+}
